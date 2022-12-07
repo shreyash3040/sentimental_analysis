@@ -1,0 +1,97 @@
+
+.my_main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.my_main div{
+    background-color:'gray';
+    border: 2px solid #d4cfd2;
+    padding:10px 15px 0;
+    border-radius:10px;
+    background-color:#fff6dd;
+}
+
+.my_main .number{
+    font-size:40px;
+    text-align:center;
+}
+.my_main .title{
+    text-align:center;
+    font-size:20px;
+    margin:0;
+}
+#pos{
+    color:green;
+}
+#neg{
+    color:red;
+}
+
+.progress_bar{
+    margin:auto;
+    background-color: #fff;
+    text-align:center;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-bottom: 20px;
+}
+.progress_bar .rating{
+    font-size:40px;
+    padding-top:20px;
+    margin:0;
+}
+
+.progress_bar .component{
+    font-size:20px;
+}
+.red{
+    border:4px solid red;
+}
+.yellow{
+    border:4px solid yellow;
+}
+.palegreen{
+    border:4px solid #70e346;
+}
+.green{
+    border:4px solid green;
+}
+
+.group{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+}
+
+.group .rating{
+    font-size:40px;
+    padding:20px 0 0;
+    margin:0;
+}
+
+.group .component{
+    font-size:20px;
+}
+
+.circle{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.project_title{
+    font-size:2rem;
+    font-weight: 600;
+}
+
+
+/* 
+.css-184tjsw{
+    font-size: 20px;
+    font-weight: 700;
+} */
